@@ -17,6 +17,7 @@ body {
   width: 500px;
   border: solid 1px black;
   box-shadow: 10px 5px 5px 5px darkgrey;
+  transition: 0.5s;
 }
 /* Header */
 
@@ -60,6 +61,10 @@ header > h1 {
 
 /* Hover settings for flag 1 */
 
+#flag1:hover {
+  box-shadow: 15px 10px 5px 5px blueviolet;
+}
+
 #flag1:hover #bar1 {
   background-color: red;
 }
@@ -70,6 +75,10 @@ header > h1 {
 
 #flag1:hover #bar3 {
   background-color: green;
+}
+
+#flag1:hover ~ div > h1 {
+  background-color: chartreuse;
 }
 
 /* Bottom flag or flag 2 here */
@@ -97,6 +106,9 @@ header > h1 {
 
 /* Hover settings for flag 2 */
 
+#flag2:hover {
+  box-shadow: 15px 10px 5px 5px blueviolet;
+}
 #flag2:hover #column1 {
   background-color: green;
 }
@@ -107,4 +119,23 @@ header > h1 {
 
 #flag2:hover #column3 {
   background-color: orange;
+}
+
+#flag2:hover ~ div > h1 {
+  background-color: pink;
+
+}
+/* This next part was in the header but in order to use CSS effectively it had to be placed later */
+
+#notheader {
+  position: relative;
+}
+
+#notheader > h1 {
+  margin-top: 10px;
+  text-align: center;
+  position: fixed;
+  top: 100px;
+  left: 850px;
+  z-index: 1;
 }
