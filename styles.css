@@ -4,7 +4,7 @@
   max-width: 700px;
   margin: auto;
   padding: 0%;
-  background-color: lightgrey;
+  background-color: rgb(8, 91, 146);
 }
 
 body {
@@ -133,9 +133,13 @@ header > h1 {
 
 #notheader > h1 {
   margin-top: 10px;
+  right: 0;
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
   text-align: center;
   position: fixed;
   top: 100px;
-  left: 850px;
   z-index: 1;
 }
