@@ -1,0 +1,103 @@
+/* General settings */
+
+* {
+    max-width: 700px;
+    margin: auto;
+    padding: 0%;
+    background-color: lightgrey;
+}
+
+body {
+    height: 2000px;
+
+}
+.flag {
+    margin: 50px;
+    height: 300px;
+    width: 500px;
+    border: solid 1px black;
+    box-shadow: 10px 5px 5px 5px darkgrey;
+}
+/* Header */
+
+header > h1 {
+    margin-top: 10px;
+    position: fixed;
+    text-align: right;
+}
+
+/* Top flag or flag 1 here*/
+
+/* initial settings for flag 1 */
+
+#flag1 {
+    position: relative;
+}
+
+#flag1 div {
+    height: 100px;
+    width: 500px;
+}
+
+#bar1 {
+    background-color: black;
+    position: sticky;
+}
+#bar2 {
+    background-color: red;
+}
+
+#bar3 {
+    background-color: yellow;
+}
+
+/* Hover settings for flag 1 */
+
+#flag1:hover #bar1 {
+    background-color: red;
+}
+
+#flag1:hover #bar2 {
+    background-color: white;
+}
+
+#flag1:hover #bar3 {
+    background-color: green;
+}
+
+/* Bottom flag or flag 2 here */
+
+/* Initial settings for flag 2 */
+
+#flag2 {
+    display: flex;
+}
+#flag2 > span {
+    height: 300px;
+    width: 167px;
+}
+#column1 {
+    background-color: blue;
+}
+
+#column2 {
+    background-color: white;
+}
+
+#column3 {
+    background-color: red;
+}
+
+/* Hover settings for flag 2 */
+
+#flag2:hover #column1 {
+    background-color: green;
+}
+
+#flag2:hover #column2 {
+    background-color: white;
+}
+
+#flag2:hover #column3 {
+    background-color: orange;
+}
